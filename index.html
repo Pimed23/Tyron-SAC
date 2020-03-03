@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<title>Index</title>
+	<link rel="stylesheet" href="index.css" type="text/css">
+	<link rel="stylesheet" href="css/fontello.css" type="text/css">
+	<link href="https://fonts.googleapis.com/css?family=Bitter:400,700|Lobster&display=swap" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+	<script src="js/jquery.flexslider.js"></script>
+	<script type="text/javascript" charset="utf-8">
+		$(window).load(function() {
+			$('.flexslider').flexslider({
+				touch: true,
+				pauseOnAction: false,
+				pauseOnHover: false,
+			});
+		});
+	</script>
+</head>
+<body>
+	<div class="header">
+		<header>
+			<img class="logo" src="images/Logo.png">
+		</header>
+	</div>
+
+	<div class="menu">
+		<nav>
+			<ul>
+				<li><a href="#"><b>INICIO</b></a></li>
+				<li><a href="#"><b>NOSOTROS</b></a></li>
+				<li>
+					<a href="#"><b>SERVICIOS<span class="icon icon-down-dir"></span></b></a>
+					<div class="submenu">	
+						<ul>
+							<li>
+								<li><a href="#"><b>Toma de inventario</b></a></li>
+								<li><a href="#"><b>Fiscalizacion tributaria</b></a></li>
+								<li><a href="#"><b>Tasaciones</b></a></li>
+								<li><a href="#"><b>Servicio de limpieza</b></a></li>
+								<li><a href="#"><b>Pintado</b></a></li>
+								<li><a href="#"><b>Electricidad</b></a></li>
+								<li><a href="#"><b>Albañileria</b></a></li>
+								<li><a href="#"><b>Carpinteria</b></a></li>
+								<li><a href="#"><b>Fontaneria y saneamientos</b></a></li>
+								<li><a href="#"><b>Direccion de personal</b></a></li>
+							</li>
+						</ul>
+					</div>
+				</li>
+				<li><a href="#"><b>CLIENTES</b></a></li>
+				<li><a href="#"><b>CONTACTO</b></a></li>
+			</ul>
+		</nav>
+	</div>
+
+	<div class="flexslider">
+		<ul class="slides">
+			<li>
+				<img src="images/1.jpg" alt="">
+				<section class="flex-caption">
+					<p>IMAGE 1</p>
+				</section>
+			</li>
+			<li>
+				<img src="images/2.jpg" alt="">
+				<section class="flex-caption">
+					<p>IMAGE 2</p>
+				</section>
+			</li>
+			<li>
+				<img src="images/3.jpg" alt="">
+				<section class="flex-caption">
+					<p>IMAGE 3</p>
+				</section>
+			</li>
+		</ul>
+	</div>
+</body>
+</html>
