@@ -1,5 +1,5 @@
+/* ///////////////// Imports ///////////////// */
 @import url('https://fonts.googleapis.com/css?family=Ubuntu:400,700&display=swap');
-
 @font-face {
 	font-family: 'flexslider-icon';
 	src: url('fonts/flexslider-icon.eot');
@@ -16,6 +16,7 @@
 	padding: 0;
 }
 
+/* ///////////////// Cabecera ///////////////// */
 .header {
     color: white;
     font-family: 'Ubuntu', sans-serif;
@@ -34,6 +35,8 @@
     display: block;
     background-size: cover;
 }
+
+/* ///////////////// Menu //////////////// */
 
 .menu {
 	font-family: 'Bitter';
@@ -103,6 +106,7 @@
 	opacity: 1;
 }
 
+/* ///////////////// Slider ///////////////// */
 
 .flexslider {
 	width: 100%;
@@ -181,15 +185,15 @@
 }
 
 .flex-direction-nav a:before {
-  font-family: "flexslider-icon";
-  font-size: 40px;
-  display: inline-block;
-  content: '\f001';
-  color: #fff;
-  text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.3);
+	font-family: "flexslider-icon";
+	font-size: 40px;
+	display: inline-block;
+	content: '\f001';
+	color: #fff;
+	text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.3);
 }
 .flex-direction-nav a.flex-next:before {
-  content: '\f002';
+	content: '\f002';
 }
 
 .flex-caption p {
@@ -220,3 +224,13 @@
 .flexslider:hover .flex-direction-nav .flex-next:hover {
 	opacity: 1;
 }
+
+/* BODY */
+
+.content {
+	width: 100%;
+	height: 60px;
+	background: #183256;
+	margin: 0px auto;
+}
+
