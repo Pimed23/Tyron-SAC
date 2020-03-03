@@ -36,6 +36,12 @@
     background-size: cover;
 }
 
+.social-web {
+	float: right;
+	width: 40px;
+	height: 40px;
+}
+
 /* ///////////////// Menu //////////////// */
 
 .menu {
@@ -164,7 +170,7 @@
 	text-decoration: none;
 	position: absolute;
 	top: 50%;
-	z-index: 999;
+	z-index: 998;
 	width: 40px;
 	height: 40px;
 	overflow: hidden;
