@@ -42,6 +42,15 @@
 	height: 40px;
 }
 
+.telefono {
+	width: 41px;
+	height: 40px;
+	position: relative;
+	top: 25px;
+	left: 400px;
+}
+
+
 /* ///////////////// Menu //////////////// */
 
 .menu {
