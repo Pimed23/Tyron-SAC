@@ -1,0 +1,26 @@
+.main__about__description .column:nth-child(1) {
+    padding: 40px;
+}
+
+.main__about__description .column:nth-child(2) {
+    padding: 20px;
+    text-align: justify;
+}
+
+@media screen and (min-width:768px) {
+    .main__about__description .column:nth-child(1) {
+        padding: 30px;
+    }
+    .main__about__description .column:nth-child(2) {
+        padding: 30px;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .main__about__description .column:nth-child(1) {
+        padding: 40px;
+    }
+    .main__about__description .column:nth-child(2) {
+        padding: 40px;
+    }
+}

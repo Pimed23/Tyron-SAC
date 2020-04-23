@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contáctanos | Tyron-SAC</title>
+    <meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1.0, maximum-scale=2.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/contacto.css">
+    <link rel="stylesheet" href="css/font.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+    <script src="js/jquery.flexslider.js"></script>
+    <script type="text/javascript" charset="utf-8">
+		$(window).load(function() {
+			$('.flexslider').flexslider({
+				touch: true,
+				pauseOnAction: false,
+				pauseOnHover: false,
+			});
+		});
+	</script>
+</head>
+
+<body>
+    <header class="main-header">
+        <div class="container container--flex">
+            <div class="logo-container column column--50">
+                <img src="images/Logo.png" class="logo">
+            </div>
+            <div class="main-header__contactInfo column column--50">
+                <p class="main-header__contactInfo__phone">
+                    <span class="icon-phone">958-340-451 / 992-131-431 / 978-820-310</span>
+                </p>
+                <p class="main-header__contactInfo__address">
+                    <span class="icon-location">Urbanización Casa Blanca A – 7</span>
+                </p>
+                <p class="main-header__contactInfo__work">
+                    <span class="icon-work"><a href="contacto.html" style="color: #009EFF;">Trabaja con nosotros</a></span>
+                </p>
+            </div>
+        </div>
+    </header>
+    
+    <nav class="main-nav">
+        <div class="container container--flex">
+            <span class="icon-menu" id="btnmenu"></span>
+            <ul class="menu" id="menu">
+                <li class="menu__item"><a href="index.html" class="menu__link">Inicio</a></li>
+                <li class="menu__item"><a href="nosotros.html" class="menu__link">Nosotros</a></li>
+                <li class="menu__item"><a href="servicios.html" class="menu__link">Servicios</a></li>
+                <li class="menu__item"><a href="clientes.html" class="menu__link">Clientes</a></li>
+                <li class="menu__item"><a href="contacto.html" class="menu__link menu__link--select">Contacto</a></li>
+            </ul>
+            <div class="social-icon">
+                <a href="" class="social-icon__link"><span class="icon-whatsapp"></span></a>
+                <a href="" class="social-icon__link"><span class="icon-mail"></span></a>
+            </div>
+        </div>
+    </nav>
+    
+    <section class="banner">
+        <img src="images/Contactanos.jpg" alt="" class="banner__img">
+        <div class="banner__content">
+            <p>Déjanos un mensaje</p> 
+        </div>
+    </section>
+    
+    <main class="main">
+        <section class="group contact">
+            <h2 class="group__title">Contáctanos</h2>
+            <div class="container container--flex">
+                <div class="contact-information column column--50">
+                    <h3 class="column__title">Informacion de contacto</h3>
+                    <p class="column__txt">Tyron S.A.C. es una firma comprometida con el desarrollo empresarial en el rubro de servicios profesionales. Hace más de 15 años estamos comprometidos con las metas de nuestros clientes, brindando servicios para su crecimiento y logro de metas gracias a un servicio de gran calidad</p>
+                    <p class="column__txt"><span class="icon-phone"></span>958-340-451</p>
+                    <p class="column__txt"><span class="icon-phone"></span>992-131-431</p>
+                    <p class="column__txt"><span class="icon-phone"></span>978-820-310</p>
+                    <p class="column__txt"><span class="icon-location"></span>Urb. Casa Blanca A7 - José Luis Bustamante y Rivero – Arequipa</p>
+                    <p class="column__txt"><span class="icon-mail"></span>tyron.sac@gmail.com</p>
+                </div>
+                <form action="enviar-prueba.php" method="post" class="formulario column column--50" enctype="multipart/form-data">
+                    <h3 class="column__title">Trabaja con nosotros</h3>
+                    <label for="" class="formulario__label">Nombre:</label><input type="text" class="formulario__input-txt" name="nombre">
+                    <label for="" class="formulario__label">Correo:</label><input type="text" class="formulario__input-txt" name="correo">
+                    <label for="" class="formulario__label">Telefono:</label><input type="text" class="formulario__input-txt" name="telefono">
+                    <label for="" class="formulario__label">Mensaje:</label>
+                    <textarea name="mensaje" id="mensaje" cols="30" rows="10" class="formulario__textarea"></textarea>
+                    <label for="" class="formulario__label adjunto">Dejanos tu CV:</label>
+                    <input type="file" class="archivo" name="archivo">
+                    <input type="submit" class="btn formulario__btn" value="Enviar">
+                </form>
+            </div>
+        </section>
+    </main>
+    
+    <footer class="main-footer">
+        <div class="container container--flex">
+            <div class="column column--33">
+                <h2 class="column__title">¿Quiénes somos?</h2>
+                <p class="column__txt">Tyron S.A.C. es una firma comprometida con el desarrollo empresarial en el rubro de servicios profesionales. Hace más de 15 años estamos comprometidos con las metas de nuestros clientes, brindando servicios para su crecimiento y logro de metas gracias a un servicio de gran calidad.</p>   
+            </div>
+            <div class="column column--33">
+                <h2 class="column__title">Contáctanos</h2>
+                <p class="column__txt"><a href="" class="icon-whatsapp">958-340-451 / 992-131-431 / 978-820-310</a></p>
+                <p class="column__txt"><a href="" class="icon-location">Urb. Casa Blanca A7 - José Luis Bustamante y Rivero – Arequipa </a></p>
+            </div>
+            <div class="column column--33">
+                <h2 class="column__title">Atención al Cliente</h2>
+                <p class="column__txt"><a href="" class="icon-phone">958-340-451 / 992-131-431 / 978-820-310</a></p>
+                <p class="column__txt">Comuníquese a estos teléfonos para atender sus consultas y sugerencias, o escríbanos a:</p>
+                <p class="column__txt"><a href="" class="icon-mail">tyron.sac@gmail.com</a></p>
+            </div>
+            <p class="copy">© 2020 TYRON. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+    
+    <script src="js/menu.js"></script>
+</body>
+</html>

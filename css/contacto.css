@@ -1,0 +1,97 @@
+.group__title {
+    color: #183256;
+}
+
+.contact .container--flex {
+    align-items: flex-start;
+}
+.contact-information {
+    padding: 10px;
+    padding-top: 0;
+    margin-bottom: 30px;
+    border-bottom: 2px solid #183256;
+}
+
+.contact-information .column__title {
+    font-family: 'Pacifico', cursive;
+    font-weight: 200;
+    text-align: center;
+}
+
+.contact-information [class*="icon-"] {
+    font-size: 1.3em;
+    margin-right: 5px;
+    position: relative;
+    top: 5px;
+}
+
+.formulario .column__title {
+    font-family: 'Pacifico', cursive;
+    font-weight: 200;
+    text-align: center;
+}
+
+.formulario {
+    padding: 10px;
+    padding-top: 0;
+}
+
+.formulario__label, .formulario__input-txt, .formulario__textarea {
+    display: block;
+    width: 100%;
+    
+}
+
+.formulario__input-txt {
+    padding: 5px;
+    margin-bottom: 8px;
+}
+
+.formulario__textarea {
+    min-height: 50px;
+    min-width: 100%;
+    max-width: 100%;
+    max-height: 65px;
+}
+
+.adjunto {
+    margin-top: 8px;
+    margin-bottom: 20px;
+}
+
+.formulario__btn {
+    font-family: 'Montserrat Alternates', sans-serif;;
+    border: none;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+@media screen and (min-width:768px) {   
+    .contact .container--flex {
+        align-items: flex-start;
+    }
+    
+    .contact-information {
+        border-right: 2px solid #183256;
+        border-bottom: none;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .contact-information p {
+        font-size: 1em;
+    }
+    
+    .contact-information .column__title {
+        font-size: 1.5;
+    }
+    
+    .contact-information {
+        height: 400px
+    }
+}
+
+
+
+
+

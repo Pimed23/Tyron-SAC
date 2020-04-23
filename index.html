@@ -1,15 +1,14 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-	<title>Index</title>
-	<link rel="stylesheet" href="index.css" type="text/css">
-	<link rel="stylesheet" href="css/fontello.css" type="text/css">
-	<link href="https://fonts.googleapis.com/css?family=Bitter:400,700|Lobster&display=swap" rel="stylesheet">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
-	<script src="js/jquery.flexslider.js"></script>
-	<script type="text/javascript" charset="utf-8">
+    <meta charset="UTF-8">
+    <title>Tyron SAC</title>
+    <meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1.0, maximum-scale=2.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/font.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+    <script src="js/jquery.flexslider.js"></script>
+    <script type="text/javascript" charset="utf-8">
 		$(window).load(function() {
 			$('.flexslider').flexslider({
 				touch: true,
@@ -19,72 +18,102 @@
 		});
 	</script>
 </head>
+
 <body>
-	<div class="header">
-		<header>
-			<img class="logo" src="images/Logo.png">
-			<img class="social-web" src="images/Whatsapp.jpg">
-			<p>
-			<img class="telefono" src="images/Telefono.png">9dsadsadlsadksal;dsa;dksal;dsak;ld;lsak;dlsak;dka;dl;sadsadjsandsajdsajdsadmas,ndm,sanda,sm,asdmsandm,s
-			</p>
-		</header>
-	</div>
-
-	<div class="menu">
-		<nav>
-			<ul>
-				<li><a href="#"><b>INICIO</b></a></li>
-				<li><a href="#"><b>NOSOTROS</b></a></li>
-				<li>
-					<a href="#"><b>SERVICIOS<span class="icon icon-down-dir"></span></b></a>
-					<div class="submenu">	
-						<ul>
-							<li>
-								<li><a href="#"><b>Toma de inventario</b></a></li>
-								<li><a href="#"><b>Fiscalizacion tributaria</b></a></li>
-								<li><a href="#"><b>Tasaciones</b></a></li>
-								<li><a href="#"><b>Servicio de limpieza</b></a></li>
-								<li><a href="#"><b>Pintado</b></a></li>
-								<li><a href="#"><b>Electricidad</b></a></li>
-								<li><a href="#"><b>Albañileria</b></a></li>
-								<li><a href="#"><b>Carpinteria</b></a></li>
-								<li><a href="#"><b>Fontaneria y saneamientos</b></a></li>
-								<li><a href="#"><b>Direccion de personal</b></a></li>
-							</li>
-						</ul>
-					</div>
-				</li>
-				<li><a href="#"><b>CLIENTES</b></a></li>
-				<li><a href="#"><b>CONTACTO</b></a></li>
-			</ul>
-		</nav>
-	</div>
-
-	<div class="flexslider">
+    <header class="main-header">
+        <div class="container container--flex">
+            <div class="logo-container column column--50">
+                <img src="images/Logo.png" class="logo">
+            </div>
+            <div class="main-header__contactInfo column column--50">
+                <p class="main-header__contactInfo__phone">
+                    <span class="icon-phone">958-340-451 / 992-131-431 / 978-820-310</span>
+                </p>
+                <p class="main-header__contactInfo__address">
+                    <span class="icon-location">Urbanización Casa Blanca A – 7</span>
+                </p>
+                <p class="main-header__contactInfo__work">
+                    <span class="icon-work"><a href="contacto.html" style="color: #009EFF;">Trabaja con nosotros</a></span>
+                </p>
+            </div>
+        </div>
+    </header>
+    
+    <nav class="main-nav">
+        <div class="container container--flex">
+            <span class="icon-menu" id="btnmenu"></span>
+            <ul class="menu" id="menu">
+                <li class="menu__item"><a href="index.html" class="menu__link menu__link--select">Inicio</a></li>
+                <li class="menu__item"><a href="nosotros.html" class="menu__link">Nosotros</a></li>
+                <li class="menu__item"><a href="servicios.html" class="menu__link">Servicios</a></li>
+                <li class="menu__item"><a href="clientes.html" class="menu__link">Clientes</a></li>
+                <li class="menu__item"><a href="contacto.html" class="menu__link">Contacto</a></li>
+            </ul>
+            <div class="social-icon">
+                <a href="" class="social-icon__link"><span class="icon-whatsapp"></span></a>
+                <a href="" class="social-icon__link"><span class="icon-mail"></span></a>
+            </div>
+        </div>
+    </nav>
+    
+    <div class="flexslider">
 		<ul class="slides">
 			<li>
-				<img src="images/1.jpg" alt="">
+				<img src="images/slider1.jpg">
 				<section class="flex-caption">
-					<p>IMAGE 1</p>
 				</section>
 			</li>
 			<li>
-				<img src="images/2.jpg" alt="">
+				<img src="images/slider2.jpg">
 				<section class="flex-caption">
-					<p>IMAGE 2</p>
 				</section>
 			</li>
 			<li>
-				<img src="images/3.jpg" alt="">
+				<img src="images/slider3.jpg">
 				<section class="flex-caption">
-					<p>IMAGE 3</p>
+				</section>
+			</li>
+			<li>
+				<img src="images/slider4.jpg">
+				<section class="flex-caption">
+				</section>
+			</li>
+			<li>
+				<img src="images/slider5.JPG">
+				<section class="flex-caption">
+				</section>
+			</li>
+			<li>
+				<img src="images/slider6.JPG">
+				<section class="flex-caption">
 				</section>
 			</li>
 		</ul>
 	</div>
-
-	<div class="content">
-		
-	</div>
+   
+    <div class="separation"></div>
+    
+    <footer class="main-footer">
+        <div class="container container--flex">
+            <div class="column column--33">
+                <h2 class="column__title">¿Quiénes somos?</h2>
+                <p class="column__txt">Tyron S.A.C. es una firma comprometida con el desarrollo empresarial en el rubro de servicios profesionales. Hace más de 15 años estamos comprometidos con las metas de nuestros clientes, brindando servicios para su crecimiento y logro de metas gracias a un servicio de gran calidad.</p>   
+            </div>
+            <div class="column column--33">
+                <h2 class="column__title">Contáctanos</h2>
+                <p class="column__txt"><a href="" class="icon-whatsapp">958-340-451 / 992-131-431 / 978-820-310</a></p>
+                <p class="column__txt"><a href="" class="icon-location">Urb. Casa Blanca A7 - José Luis Bustamante y Rivero – Arequipa </a></p>
+            </div>
+            <div class="column column--33">
+                <h2 class="column__title">Atención al Cliente</h2>
+                <p class="column__txt"><a href="" class="icon-phone">958-340-451 / 992-131-431 / 978-820-310</a></p>
+                <p class="column__txt">Comuníquese a estos teléfonos para atender sus consultas y sugerencias, o escríbanos a:</p>
+                <p class="column__txt"><a href="" class="icon-mail">tyron.sac@gmail.com</a></p>
+            </div>
+            <p class="copy">© 2020 TYRON. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+    
+    <script src="js/menu.js"></script>
 </body>
 </html>
